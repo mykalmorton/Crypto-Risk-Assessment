@@ -63,6 +63,8 @@
 
 ## 3. Simulation Trajectories
 
+![3](./Images/geoviews_plot.png)
+![4](./Images/geoviews_plot.png)
 * Create a new DataFrame that groups the original DataFrame by year and neighborhood. Aggregate the results by the `mean` of the groups.
 * Filter out the “housing_units” column to create a DataFrame that includes only the `sale_price_sqr_foot` and `gross_rent` averages per year.
 * Create an interactive line plot with hvPlot that visualizes both `sale_price_sqr_foot` and `gross_rent`. 
@@ -74,7 +76,7 @@
 
 ## 4. Back-End Functionality
 
-![4](./Images/geoviews_plot.png)
+![5](./Images/geoviews_plot.png)
 
 * Read the `neighborhood_coordinates.csv` file from the `Resources` folder into the notebook, and create a DataFrame named `neighborhood_locations_df`. 
 * Be sure to set the `index_col` of the DataFrame as “Neighborhood”.
